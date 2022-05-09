@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+  margin: 40px auto;
+}
+
+.innerContainer {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.linkContainer {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.linkContainer li {
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: var(--dark-grey);
+}

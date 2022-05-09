@@ -1,0 +1,64 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --peach: #e7816b;
+  --light-peach: #ffad9b;
+  --black: #1d1c1e;
+  --dark-grey: #333136;
+  --white: #ffffff;
+  --light-grey: #f1f3f5;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.h1Header {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  color: var(--black);
+}
+
+.h2Header {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: var(--black);
+  letter-spacing: 2px;
+}
+
+.h3Header {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: var(--black);
+  letter-spacing: 5px;
+}
+
+.bodyFont {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--black);
+}
